@@ -1,12 +1,12 @@
 <?php
 
-namespace VendorName\Skeleton\Commands;
+namespace Deonoize\FilamentAutoTranslation\Commands;
 
 use Illuminate\Console\Command;
 
-class SkeletonCommand extends Command
+class FilamentAutoTranslationCommand extends Command
 {
-    public $signature = 'skeleton';
+    public $signature = 'filament-auto-translation';
 
     public $description = 'My command';
 
