@@ -2,6 +2,8 @@
 
 namespace Deonoize\FilamentAutoTranslation;
 
+use Deonoize\FilamentAutoTranslation\Commands\FilamentAutoTranslationCommand;
+use Deonoize\FilamentAutoTranslation\Testing\TestsFilamentAutoTranslation;
 use Filament\Support\Assets\AlpineComponent;
 use Filament\Support\Assets\Asset;
 use Filament\Support\Assets\Css;
@@ -13,8 +15,6 @@ use Livewire\Features\SupportTesting\Testable;
 use Spatie\LaravelPackageTools\Commands\InstallCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use Deonoize\FilamentAutoTranslation\Commands\FilamentAutoTranslationCommand;
-use Deonoize\FilamentAutoTranslation\Testing\TestsFilamentAutoTranslation;
 
 class FilamentAutoTranslationServiceProvider extends PackageServiceProvider
 {
